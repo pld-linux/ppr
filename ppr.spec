@@ -1,15 +1,15 @@
 # TODO:
-#	- everything
+#	- everything + even more
 #
 Summary:	A spooler for PostScript printers
 Summary(pl):	Spooler dla drukarek postscriptowych
 Name:		ppr
 Version:	1.53a1
-Release:	1
+Release:	0.1
 License:	BSD
 Group:		Applications/Printing
 Source0:	http://dl.sourceforge.net/ppr/%{name}-%{version}.tar.gz
-# Source0-md5:
+# Source0-md5:	89c89dbf0fea99407e1b60a3ca3077f2
 URL:		http://ppr.trincoll.edu/
 BuildRequires:	gdbm-devel
 BuildRequires:	perl-base
@@ -51,9 +51,10 @@ CFLAGS="%{rpmcflags}" \
 
 %install
 rm -rf $RPM_BUILD_ROOT
+mkdir $RPM_BUILD_ROOT
 
-%{__make} install \
-	RPM_BUILD_ROOT=$RPM_BUILD_ROOT
+%{__make} RPM_BUILD_ROOT=$RPM_BUILD_ROOT \
+	install
 
 %clean
 rm -rf $RPM_BUILD_ROOT
