@@ -2,7 +2,7 @@
 #	- everything + even more
 #
 Summary:	A spooler for PostScript printers
-Summary(pl):	Spooler dla drukarek postscriptowych
+Summary(pl.UTF-8):   Spooler dla drukarek postscriptowych
 Name:		ppr
 Version:	1.53a1
 Release:	0.1
@@ -22,11 +22,11 @@ PPR is a print spooler for PostScript printers. It can print to
 parallel, serial, AppleTalk, LPR/LPD, AppSocket, and SMB printers. It
 works well with Ghostscript, Netatalk, CAP60, and Samba.
 
-%description -l pl
-PPR to program do kolejkowania wydruków (spooler) dla drukarek
-postscriptowych. Mo¿e drukowaæ na drukarkach pod³±czonych przez port
-równoleg³y i szeregowy, po protoko³ach AppleTalk, LPR/LPD, AppSocket i
-SMB. Dzia³a dobrze z Ghostscriptem, Netatalkiem, CAP60 i Samb±.
+%description -l pl.UTF-8
+PPR to program do kolejkowania wydrukÃ³w (spooler) dla drukarek
+postscriptowych. MoÅ¼e drukowaÄ‡ na drukarkach podÅ‚Ä…czonych przez port
+rÃ³wnolegÅ‚y i szeregowy, po protokoÅ‚ach AppleTalk, LPR/LPD, AppSocket i
+SMB. DziaÅ‚a dobrze z Ghostscriptem, Netatalkiem, CAP60 i SambÄ….
 
 %prep
 %setup -q
