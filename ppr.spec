@@ -2,7 +2,7 @@
 #	- everything + even more
 #
 Summary:	A spooler for PostScript printers
-Summary(pl.UTF-8):   Spooler dla drukarek postscriptowych
+Summary(pl.UTF-8):	Spooler dla drukarek postscriptowych
 Name:		ppr
 Version:	1.53a1
 Release:	0.1
